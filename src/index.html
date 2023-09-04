@@ -9,5 +9,29 @@
 
 <body>
   <script src="index.js" type="module"></script>
+  <br>
+  <header>
+    <h1>Analizador de Texto</h1>
+  </header>
+  <br>
+  <div id="textarea-area-container">
+    <textarea name="user-input" cols="30" rows="10"></textarea>
+  </div>
+  <ul>
+    <li class="color" data-testid="word-count">Recuento de palabras: </li>
+    <li class="color" data-testid="character-count">Recuento de caracteres: </li>
+    <li class="color" data-testid="character-no-spaces-count">Recuento de caracteres (sin espacios ni puntuación): </li>
+    <li class="color" data-testid="number-count">Recuento de números: </li>
+    <li class="color" data-testid="number-sum">Suma total de números: </li>
+    <li class="color" data-testid="word-length-average">Longitud media de palabras: </li>
+  </ul>
+
+  <div id="reset-button-container">
+    <button id="reset-button">Resetear</button>
+  </div>
+  <footer>
+    <p>Autor: María José Valdebenito</p>
+  </footer>
 </body>
+
 </html>
