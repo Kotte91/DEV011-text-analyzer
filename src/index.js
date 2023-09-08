@@ -23,7 +23,7 @@ function updateResults() {
 }
 
 document.getElementsByName("user-input")[0].addEventListener('keyup', function () {
-  // Código para manejar el evento keyu en el elemento con name "user-input"p
+  
 });
 textarea.addEventListener('input', updateResults);
 
